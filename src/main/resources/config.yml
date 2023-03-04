@@ -1,0 +1,31 @@
+# -----------------------
+# lmke Wallet Configuration
+# -----------------------
+
+# Change the language of the messages (eg. select what message file to use)
+locale: 'de'
+
+currency_name:
+  singular: Coin
+  plural: Coins
+
+initial_balance: 100
+
+pay_distance:
+  enable: true
+  distance: 10
+
+pay_require_online: true
+
+clear_wallet_on_death: true
+
+# Database (supports sqlite and mysql driver)
+# Default is "sqlite" which automatically creates a "data.db" in the same directory where this config is
+database:
+  driver: sqlite
+  host: false
+  port: false
+  user: false
+  passwd: false
+  dbname: false
+

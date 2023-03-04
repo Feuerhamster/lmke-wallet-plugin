@@ -1,0 +1,38 @@
+common:
+  prefix: '§3lmke §awallet §8» §7'
+  header: '§7---[ §3lmke §awallet §7]---'
+
+errors:
+  missing_args: '§4Error: One or more arguments missing'
+  missing_permission: '§cError: Missing permissions'
+  not_found: '§4Error: Not found'
+  invalid: '§cError: Invalid input'
+  no_money: '§cError: Not enough money'
+  failed: '§cError: Action failed'
+  too_far_away: '§cError: Player too far away'
+  offline: '§cError: Player is offline'
+  invalid_receiver: '§cError: Invalid receiver'
+
+help:
+  - '§a/wallet [player] §7- Shows the value of your or another's wallet'
+  - '§a/wallet help §7- Shows this help page'
+  - '§a/wallet pay <player> <value> §7- Pay money to a player'
+  - '§a/wallet set <player|value> [value] §7- Set the value of your or another's wallet'
+  - '§a/wallet add <player|value> [value] §7- Add money to your or another's wallet'
+  - '§a/wallet withdraw <player|value> [value] §7- Withdraw money to your or another's wallet'
+
+wallet:
+  balance: 'Money in your wallet: §a%s'
+  balance_other: '§a%s §7has §a%s §7in their wallet'
+
+  set: 'Wallet set to §a%s'
+  set_other: 'Wallet of §a%s §7set to §a%s'
+
+  add: '§a%s §7added to your wallet'
+  add_other: 'Wallet of §a%s §7added §a%s'
+
+  withdraw: '§a%s §7withdrawn from your wallet'
+  withdraw_other: 'Wallet of §a%s §7withdrawn §a%s'
+
+  pay: 'Payed §a%s §7an amount of §a%s'
+  pay_receive: 'You got §a%s §7from §a%s'

@@ -1,0 +1,24 @@
+name: lmke-wallet
+version: '${project.version}'
+main: dev.lmke.mc.wallet.LMKEWallet
+api-version: 1.15
+depend: [ Vault ]
+authors: [ Feuerhamster ]
+description: The simple economy plugin with Vault support and localization
+website: https://lmke.dev
+
+commands:
+  wallet:
+    description: Main command for wallet
+    aliases: [money]
+    permission: lmke-wallet.wallet
+    usage: /wallet
+
+permissions:
+  lmke-wallet.wallet:
+    default: true
+    children:
+      lmke-wallet.wallet.pay: true
+      lmke-wallet.wallet.set: false
+      lmke-wallet.wallet.add: false
+      lmke-wallet.wallet.withdraw: false

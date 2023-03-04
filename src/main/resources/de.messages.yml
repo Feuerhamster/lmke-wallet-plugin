@@ -1,0 +1,38 @@
+common:
+  prefix: '§3lmke §awallet §8» §7'
+  header: '§7---[ §3lmke §awallet §7]---'
+
+errors:
+  missing_args: '§cFehler: Ein oder mehrere Argumente fehlen'
+  missing_permission: '§cFehler: Keine Berechtigung'
+  not_found: '§cFehler: Nicht gefunden'
+  invalid: '§cFehler: Invalide Eingabe'
+  no_money: '§cFehler: Nicht genug Geld'
+  failed: '§cFehler: Aktion fehlgeschlagen'
+  too_far_away: '§cFehler: Spieler zu weit entfernt'
+  offline: '§cFehler: Spieler nicht online'
+  invalid_receiver: '§cError: Ungültiger Empfänger'
+
+help:
+  - '§a/wallet [player] §7- Zeige den Wert in deinem oder einem anderen Geldbeutel'
+  - '§a/wallet help §7- Zeige diese Hilfeseite'
+  - '§a/wallet pay <player> <value> §7- Gebe einem Spieler Geld'
+  - '§a/wallet set <player|value> [value] §7- Setze den Wert in deinem oder dem Geldbeitel eines anderen Spielers'
+  - '§a/wallet add <player|value> [value] §7- Füge Geld deinem oder dem Geldbeutel eines anderen Spielers hinzu'
+  - '§a/wallet withdraw <player|value> [value] §7- Entferne Geld von deinem oder einem anderen Geldbeutel'
+
+wallet:
+  balance: 'In deinem Geldbeutel: §a%s'
+  balance_other: '§a%s §7hat §a%s §7im Geldbeutel'
+
+  set: 'Wert deines Geldbeutels auf §a%s §7gesetzt'
+  set_other: 'Wert des Geldbeutels von §a%s §7auf §a%s §7gesetzt'
+
+  add: 'Deinem Geldbeutel §a%s §7hinzugefügt'
+  add_other: 'Dem Geldbeutel von §a%s §7wurde(n) §a%s §7hinzugefügt'
+
+  withdraw: 'Deinem Geldbeutel §a%s §7entzogen'
+  withdraw_other: 'Dem Geldbeutel von §a%s §7wurde(n) §a%s §7entzogen'
+
+  pay: 'Du hast §a%s §7an §a%s §7gegeben'
+  pay_receive: 'Du hast §a%s §7von §a%s §7erhalten'
